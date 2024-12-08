@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<channel name="xfce4-panel" version="1.0">
+  <property name="configver" type="int" value="2"/>
+  <property name="panels" type="array">
+    <value type="int" value="1"/>
+    <property name="panel-1" type="empty">
+      <property name="position" type="string" value="p=12;x=0;y=0"/>
+      <property name="length" type="double" value="100"/>
+      <property name="position-locked" type="bool" value="true"/>
+      <property name="size" type="uint" value="36"/>
+      <property name="plugin-ids" type="array">
+        <value type="int" value="20"/>
+        <value type="int" value="3"/>
+        <value type="int" value="2"/>
+        <value type="int" value="15"/>
+        <value type="int" value="5"/>
+        <value type="int" value="6"/>
+        <value type="int" value="7"/>
+        <value type="int" value="4"/>
+        <value type="int" value="8"/>
+        <value type="int" value="1"/>
+        <value type="int" value="9"/>
+      </property>
+      <property name="background-style" type="uint" value="0"/>
+      <property name="mode" type="int" value="0"/>
+      <property name="nrows" type="uint" value="1"/>
+      <property name="background-rgba" type="array">
+        <value type="double" value="0.75"/>
+        <value type="double" value="0.25"/>
+        <value type="double" value="0.25"/>
+        <value type="double" value="0"/>
+      </property>
+      <property name="autohide-behavior" type="uint" value="0"/>
+      <property name="span-monitors" type="bool" value="false"/>
+      <property name="enable-struts" type="bool" value="true"/>
+    </property>
+    <property name="dark-mode" type="bool" value="true"/>
+  </property>
+  <property name="plugins" type="empty">
+    <property name="plugin-15" type="string" value="separator">
+      <property name="expand" type="bool" value="true"/>
+      <property name="style" type="uint" value="0"/>
+    </property>
+    <property name="plugin-6" type="string" value="systray">
+      <property name="names-visible" type="array">
+        <value type="string" value="networkmanager applet"/>
+        <value type="string" value="volumeicon"/>
+        <value type="string" value="xfce terminal"/>
+        <value type="string" value="blueman-applet"/>
+        <value type="string" value="apt-notifier.py"/>
+        <value type="string" value="clipman"/>
+        <value type="string" value="xfce4-power-manager"/>
+        <value type="string" value="fbxkb"/>
+      </property>
+      <property name="show-frame" type="bool" value="false"/>
+      <property name="names-hidden" type="array">
+      </property>
+      <property name="size-max" type="uint" value="24"/>
+      <property name="icon-size" type="int" value="0"/>
+      <property name="names-ordered" type="array">
+        <value type="string" value="apt-notifier.py"/>
+        <value type="string" value="yad"/>
+        <value type="string" value="xfce4-power-manager"/>
+        <value type="string" value="networkmanager applet"/>
+        <value type="string" value="clipit"/>
+      </property>
+      <property name="known-legacy-items" type="array">
+        <value type="string" value="gxkb"/>
+        <value type="string" value="wi-fi network connection “wrt24” active: wrt24 (80%)"/>
+        <value type="string" value="wi-fi network connection “wrt5” active: wrt5 (60%)"/>
+        <value type="string" value="wi-fi network connection “michel” active: michel (88%)"/>
+        <value type="string" value="wi-fi network connection “michel” active: michel (87%)"/>
+        <value type="string" value="wi-fi network connection “michel” active: michel (89%)"/>
+        <value type="string" value="wi-fi network connection “michel” active: michel (91%)"/>
+        <value type="string" value="wi-fi network connection “wrt24” active: wrt24 (77%)"/>
+        <value type="string" value="wi-fi network connection “smartrg-a963-5g” active: smartrg-a963-5g (75%)"/>
+        <value type="string" value="wi-fi network connection “smartrg-a963-5g” active: smartrg-a963-5g (70%)"/>
+        <value type="string" value="nextcloud"/>
+        <value type="string" value="wi-fi network connection “smartrg-a963-5g” active: smartrg-a963-5g (62%)"/>
+        <value type="string" value="wi-fi network connection “smartrg-a963-5g” active: smartrg-a963-5g (67%)"/>
+        <value type="string" value="wi-fi network connection “smartrg-a963-5g” active: smartrg-a963-5g (66%)"/>
+        <value type="string" value="wi-fi network connection “smartrg-a963-5g” active: smartrg-a963-5g (69%)"/>
+        <value type="string" value="wi-fi network connection “smartrg-a963-5g” active: smartrg-a963-5g (74%)"/>
+        <value type="string" value="wi-fi network connection “smartrg-a963-5g” active: smartrg-a963-5g (73%)"/>
+        <value type="string" value="wi-fi network connection “smartrg-a963-5g” active: smartrg-a963-5g (72%)"/>
+        <value type="string" value="wi-fi network connection “wrt24” active: wrt24 (74%)"/>
+        <value type="string" value="wi-fi network connection “wrt24” active: wrt24 (75%)"/>
+        <value type="string" value="wi-fi network connection “wrt24” active: wrt24 (76%)"/>
+        <value type="string" value="system-config-printer"/>
+        <value type="string" value="wi-fi network connection “wrt24” active: wrt24 (72%)"/>
+        <value type="string" value="wi-fi network connection “wrt24” active: wrt24 (73%)"/>
+        <value type="string" value="wi-fi network connection “wrt24” active: wrt24 (71%)"/>
+        <value type="string" value="wi-fi network connection “wrt24” active: wrt24 (69%)"/>
+        <value type="string" value="wi-fi network connection “wrt24” active: wrt24 (63%)"/>
+        <value type="string" value="wi-fi network connection “wrt24” active: wrt24 (68%)"/>
+        <value type="string" value="wi-fi network connection “smartrg-a963” active: smartrg-a963 (61%)"/>
+        <value type="string" value="wi-fi network connection “smartrg-a963” active: smartrg-a963 (79%)"/>
+        <value type="string" value="wi-fi network connection “smartrg-a963” active: smartrg-a963 (78%)"/>
+        <value type="string" value="wi-fi network connection “smartrg-a963” active: smartrg-a963 (71%)"/>
+        <value type="string" value="wi-fi network connection “smartrg-a963” active: smartrg-a963 (75%)"/>
+        <value type="string" value="wi-fi network connection “smartrg-a963” active: smartrg-a963 (74%)"/>
+        <value type="string" value="wi-fi network connection “smartrg-a963” active: smartrg-a963 (51%)"/>
+        <value type="string" value="wi-fi network connection “smartrg-a963” active: smartrg-a963 (81%)"/>
+        <value type="string" value="wi-fi network connection “smartrg-a963” active: smartrg-a963 (76%)"/>
+        <value type="string" value="wi-fi network connection “smartrg-a963” active: smartrg-a963 (77%)"/>
+        <value type="string" value="mx-usb-unmounter"/>
+        <value type="string" value="wi-fi network connection “smartrg-a963-5g” active: smartrg-a963-5g (68%)"/>
+        <value type="string" value="networkmanager applet"/>
+        <value type="string" value="clipman"/>
+      </property>
+      <property name="known-items" type="array">
+        <value type="string" value="Plover"/>
+        <value type="string" value="SimpleScreenRecorder"/>
+        <value type="string" value="example-simple-client"/>
+        <value type="string" value="veracrypt"/>
+        <value type="string" value="Clementine"/>
+        <value type="string" value="SoulseekQt-2018-1-30-64bit.AppImage"/>
+        <value type="string" value="flameshot"/>
+        <value type="string" value="TelegramDesktop"/>
+        <value type="string" value="Nextcloud"/>
+        <value type="string" value="apt-notifier.py"/>
+        <value type="string" value="blueman"/>
+        <value type="string" value="mx-usb-unmounter"/>
+      </property>
+    </property>
+    <property name="plugin-20" type="string" value="whiskermenu"/>
+    <property name="plugin-1" type="string" value="clock">
+      <property name="mode" type="uint" value="2"/>
+      <property name="command" type="string" value="gnome-calendar"/>
+      <property name="digital-layout" type="uint" value="3"/>
+      <property name="digital-time-format" type="string" value="%H:%M"/>
+      <property name="digital-time-font" type="string" value="Sans Bold 16"/>
+      <property name="digital-date-font" type="string" value="Sans 11"/>
+    </property>
+    <property name="plugin-9" type="string" value="actions">
+      <property name="appearance" type="uint" value="0"/>
+      <property name="items" type="array">
+        <value type="string" value="-lock-screen"/>
+        <value type="string" value="-switch-user"/>
+        <value type="string" value="-separator"/>
+        <value type="string" value="-suspend"/>
+        <value type="string" value="-hibernate"/>
+        <value type="string" value="-separator"/>
+        <value type="string" value="-shutdown"/>
+        <value type="string" value="-restart"/>
+        <value type="string" value="-separator"/>
+        <value type="string" value="+logout"/>
+        <value type="string" value="-logout-dialog"/>
+      </property>
+    </property>
+    <property name="plugin-2" type="string" value="docklike"/>
+    <property name="plugin-5" type="string" value="pulseaudio">
+      <property name="enable-keyboard-shortcuts" type="bool" value="true"/>
+      <property name="mpris-players" type="string" value="brave.instance19395;brave.instance22136;brave.instance23619;brave.instance2363;brave.instance2422;brave.instance24775;brave.instance2491;brave.instance2500;brave.instance25384;brave.instance2564;brave.instance2603;brave.instance2679;brave.instance2694;brave.instance278374;brave.instance2890;brave.instance2954;brave.instance30060;brave.instance3056;brave.instance3059;brave.instance3130;brave.instance3140;brave.instance3162;brave.instance3228;brave.instance3230;brave.instance3240;brave.instance3294;brave.instance3299;brave.instance3311;brave.instance3323;brave.instance3341;brave.instance3350;brave.instance3354;brave.instance3355;brave.instance3365;brave.instance3374;brave.instance3384;brave.instance3390;brave.instance3421;brave.instance3429;brave.instance3442;brave.instance3449;brave.instance3474;brave.instance3479;brave.instance3506;brave.instance3509;brave.instance3520;brave.instance3525;brave.instance3614;brave.instance3620;brave.instance38164;brave.instance3821;brave.instance3831;brave.instance3839;brave.instance3850;brave.instance3853;brave.instance38943;brave.instance3896;brave.instance3904;brave.instance3955;brave.instance3959;brave.instance3983;brave.instance3994;brave.instance3996;brave.instance3999;brave.instance4010;brave.instance4033;brave.instance4039;brave.instance4047;brave.instance4077;brave.instance4115;brave.instance4153;brave.instance4186;brave.instance4307;brave.instance4338;brave.instance43889;brave.instance4425;brave.instance4431;brave.instance4494;brave.instance4516;brave.instance4561;brave.instance4611;brave.instance4651;brave.instance4845;brave.instance4917;brave.instance4955;brave.instance4992;brave.instance5108;brave.instance5239;brave.instance5276;brave.instance5316;brave.instance5536;brave.instance5630;brave.instance56471;brave.instance5698;brave.instance5808;brave.instance58307;brave.instance5908;brave.instance5942;brave.instance6138;brave.instance6418;brave.instance6458;brave.instance6609;brave.instance7038;brave.instance7423;brave.instance7543;brave.instance80304;brave.instance8241;brave.instance8408;brave.instance8585;brave.instance85988;brave.instance93284;chromium.instance10489;chromium.instance15183;chromium.instance23701;chromium.instance278888;chromium.instance3956;chromium.instance4002;chromium.instance4976;chromium.instance5061;chromium.instance5301;chromium.instance56504;chromium.instance7189;chromium.instance7342;chromium.instance8390;clementine;qutebrowser.instance12584;qutebrowser.instance14675;qutebrowser.instance4844;qutebrowser.instance51444;qutebrowser.instance96648;spotify"/>
+    </property>
+    <property name="plugin-7" type="string" value="power-manager-plugin"/>
+    <property name="plugin-3" type="string" value="separator">
+      <property name="style" type="uint" value="0"/>
+      <property name="expand" type="bool" value="true"/>
+    </property>
+    <property name="clipman" type="empty">
+      <property name="tweaks" type="empty">
+        <property name="never-confirm-history-clear" type="bool" value="false"/>
+      </property>
+    </property>
+    <property name="plugin-4" type="string" value="clock">
+      <property name="digital-layout" type="uint" value="2"/>
+      <property name="digital-date-font" type="string" value="Sans 14"/>
+    </property>
+    <property name="plugin-8" type="string" value="separator">
+      <property name="style" type="uint" value="0"/>
+    </property>
+  </property>
+  <property name="clipman" type="empty">
+    <property name="tweaks" type="empty">
+      <property name="never-confirm-history-clear" type="bool" value="false"/>
+    </property>
+  </property>
+</channel>
